@@ -15,6 +15,10 @@ interface Resume {
 }
 
 interface Feedback {
+  weaknesses: any;
+  score: number;
+  improvements: any;
+  strengths: any;
   overallScore: number;
   ATS: {
     score: number;
