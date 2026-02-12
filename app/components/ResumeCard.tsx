@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import ScoreCircle from "./ScoreCircle";
-import type { Resume } from "../../constants";
+import type { Resume } from "../constants";
 
 interface ResumeCardProps {
   resume: Resume;
